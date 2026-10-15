@@ -47,3 +47,38 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Gradle and Kotlin caches
+.gradle/
+.kotlin/
+
+# Build output
+build/
+out/
+*.apk
+*.aab
+
+# Local Android SDK path
+local.properties
+
+# Android Studio / IntelliJ settings
+.idea/
+*.iml
+
+# Native build output
+.externalNativeBuild/
+.cxx/
+
+# Signing keys and credentials
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
