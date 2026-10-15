@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Window theme used before Compose draws its first frame.
-         The in-app colors come from TodoTheme in ui/theme/Theme.kt. -->
-    <style name="Theme.Todo" parent="android:Theme.Material.Light.NoActionBar" />
-</resources>

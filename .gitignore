@@ -1,34 +1,49 @@
-# Gradle and Kotlin caches
-.gradle/
-.kotlin/
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# Build output
-build/
-out/
+# dependencies
+node_modules/
+.idea/
+.claude/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env
+.env*.local
+
+# build artifacts
 *.apk
 *.aab
+*.ipa
 
-# Local Android SDK path
-local.properties
+# typescript
+*.tsbuildinfo
 
-# Android Studio / IntelliJ settings
-.idea/
-*.iml
-
-# Native build output
-.externalNativeBuild/
-.cxx/
-
-# Signing keys and credentials
-*.jks
-*.keystore
-keystore.properties
-secrets.properties
-.env
-.env.*
-!.env.example
-
-# Logs and OS files
-*.log
-.DS_Store
-Thumbs.db
+# generated native folders
+/ios
+/android
